@@ -1,15 +1,19 @@
-# this file is generated via https://github.com/docker-library/elasticsearch/blob/551cff2cb19d99d2c76a8717d7d3007bb23c3a7a/generate-stackbrew-library.sh
+Maintainers: Rene Groeschke (@breskeby)
+GitRepo: https://github.com/elastic/dockerfiles.git
+Directory: elasticsearch
+Builder: buildkit
 
-Maintainers: Tianon Gravi <admwiggin@gmail.com> (@tianon),
-             Joseph Ferguson <yosifkit@gmail.com> (@yosifkit)
-GitRepo: https://github.com/docker-library/elasticsearch.git
-
-Tags: 7.9.3
+Tags: 8.19.25
 Architectures: amd64, arm64v8
-GitCommit: e12af6f82a22521626db075a939962d065e07850
-Directory: 7
+GitFetch: refs/heads/8.19
+GitCommit: 80e6e02fa154a280c827683f45ed6a320c90ad8c
 
-Tags: 6.8.13
-Architectures: amd64
-GitCommit: 008dd9ddffa1881494e32f6c09763e5097293964
-Directory: 6
+Tags: 9.4.8
+Architectures: amd64, arm64v8
+GitFetch: refs/heads/9.4
+GitCommit: 8eec196323810ee2b48f94058ce633665c540e1a
+
+Tags: 9.5.5
+Architectures: amd64, arm64v8
+GitFetch: refs/heads/9.5
+GitCommit: 379b7f13fe4a5ce76a8ec81c8ab45ebc9f9968ed

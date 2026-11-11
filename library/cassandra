@@ -1,30 +1,25 @@
-# this file is generated via https://github.com/docker-library/cassandra/blob/c191e1ac6c2fe9973c7ac1f106d395d03ed05eba/generate-stackbrew-library.sh
+# this file is generated via https://github.com/docker-library/cassandra/blob/7c5b1270f935620330a51c1658d2c0557432f4ac/generate-stackbrew-library.sh
 
 Maintainers: Tianon Gravi <admwiggin@gmail.com> (@tianon),
              Joseph Ferguson <yosifkit@gmail.com> (@yosifkit)
 GitRepo: https://github.com/docker-library/cassandra.git
 
-Tags: 4.0-beta3, 4.0
+Tags: 6.0-alpha2, 6.0, 6.0-alpha2-trixie, 6.0-trixie
+Architectures: amd64, arm64v8, ppc64le, s390x
+GitCommit: 929d3a1ab0aa656873dacdd915d8a86b85547776
+Directory: 6.0
+
+Tags: 5.0.9, 5.0, 5, latest, 5.0.9-trixie, 5.0-trixie, 5-trixie, trixie
+Architectures: amd64, arm32v7, arm64v8, ppc64le, s390x
+GitCommit: 929d3a1ab0aa656873dacdd915d8a86b85547776
+Directory: 5.0
+
+Tags: 4.1.12, 4.1, 4, 4.1.12-bookworm, 4.1-bookworm, 4-bookworm
 Architectures: amd64, arm32v7, arm64v8, ppc64le
-GitCommit: 9cb81d5e734b89af2df9e5636e0c207c5f4609e5
+GitCommit: 50bacaca78e08e488aebc7a9d11b4fd1f188770a
+Directory: 4.1
+
+Tags: 4.0.21, 4.0, 4.0.21-bookworm, 4.0-bookworm
+Architectures: amd64, arm32v7, arm64v8, ppc64le
+GitCommit: 7dc920047b2cc14d817e42d1f36b109e76ac4e7e
 Directory: 4.0
-
-Tags: 3.11.9, 3.11, 3, latest
-Architectures: amd64, arm32v7, arm64v8, ppc64le
-GitCommit: 6fbb6ce475a028c26cd22ac91377887ce453910f
-Directory: 3.11
-
-Tags: 3.0.23, 3.0
-Architectures: amd64, arm32v7, arm64v8, ppc64le
-GitCommit: 32e0b2dc80fa6d3e67da635b379cdf0620728143
-Directory: 3.0
-
-Tags: 2.2.19, 2.2, 2
-Architectures: amd64, arm32v7, ppc64le
-GitCommit: cb366dd5fdac8654cd6ecab5b97419664a72cde7
-Directory: 2.2
-
-Tags: 2.1.22, 2.1
-Architectures: amd64, arm64v8, ppc64le
-GitCommit: ac677624ce2dd33c995a55755a2a1dc9918b9a4e
-Directory: 2.1

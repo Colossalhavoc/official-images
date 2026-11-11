@@ -1,0 +1,12 @@
+Maintainers: Alexander Thomas <athom@google.com> (@athomas), Sam Rawlins <srawlins@google.com> (@srawlins)
+GitRepo: https://github.com/dart-lang/dart-docker.git
+GitFetch: refs/heads/main
+GitCommit: e8fb8445bb2682127292a486f25a45a21b0d0f35
+
+Tags: 3.14.0-sdk, 3.14-sdk, 3-sdk, stable-sdk, sdk, 3.14.0, 3.14, 3, stable, latest
+Architectures: amd64, arm32v7, arm64v8, riscv64
+Directory: stable/trixie
+
+Tags: 3.15.0-118.1.beta-sdk, beta-sdk, 3.15.0-118.1.beta, beta
+Architectures: amd64, arm32v7, arm64v8, riscv64
+Directory: beta/trixie

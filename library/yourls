@@ -1,20 +1,21 @@
-# this file is generated via https://github.com/YOURLS/docker-yourls/blob/c885eebe9dfdfd0a0a0cca3c8a48badd4a63487c/generate-stackbrew-library.sh
+# this file is generated via https://github.com/YOURLS/containers/blob/a2895c8b7080d785ae59761d489aafebaf50cebe/bin/generate-stackbrew-library.sh
 
 Maintainers: YOURLS <yourls@yourls.org> (@YOURLS),
              Léo Colombaro <git@colombaro.fr> (@LeoColomb)
-GitRepo: https://github.com/YOURLS/docker-yourls.git
+GitRepo: https://github.com/YOURLS/containers.git
+GitFetch: refs/heads/dist
 
-Tags: 1.7.9-apache, 1.7-apache, 1-apache, apache, 1.7.9, 1.7, 1, latest
-Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
-GitCommit: fe07662938efe12d7c8c82bea32d1d34874d0665
+Tags: 1.10.6-apache, 1.10-apache, 1-apache, apache, 1.10.6, 1.10, 1, latest
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
+GitCommit: a2895c8b7080d785ae59761d489aafebaf50cebe
 Directory: apache
 
-Tags: 1.7.9-fpm, 1.7-fpm, 1-fpm, fpm
-Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, mips64le, ppc64le, s390x
-GitCommit: fe07662938efe12d7c8c82bea32d1d34874d0665
+Tags: 1.10.6-fpm, 1.10-fpm, 1-fpm, fpm
+Architectures: amd64, arm32v5, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
+GitCommit: a2895c8b7080d785ae59761d489aafebaf50cebe
 Directory: fpm
 
-Tags: 1.7.9-fpm-alpine, 1.7-fpm-alpine, 1-fpm-alpine, fpm-alpine
-Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, s390x
-GitCommit: fe07662938efe12d7c8c82bea32d1d34874d0665
+Tags: 1.10.6-fpm-alpine, 1.10-fpm-alpine, 1-fpm-alpine, fpm-alpine
+Architectures: amd64, arm32v6, arm32v7, arm64v8, i386, ppc64le, riscv64, s390x
+GitCommit: a2895c8b7080d785ae59761d489aafebaf50cebe
 Directory: fpm-alpine
